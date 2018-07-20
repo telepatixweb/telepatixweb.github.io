@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="google" content="notranslate">
+  <title>TelepatiX Web</title>
+  <base href="/">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
+  <link rel="icon" type="image/x-icon" href="telepatix.ico">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  
+  <script src="./assets/texttospeech.js" type="module"></script>
+  <link rel="manifest" href="manifest.json">
+  <meta name="theme-color" content="#1976d2">
+<link rel="stylesheet" href="styles.0302b2782488af9997cb.css"></head>
+<body style="margin:0px">
+  <app-root>
+    <style>
+      html, body, #app {
+      height: 100%;
+      width: 100%;
+      overflow: hidden;
+      padding: 0;
+      margin: 0;
+      }
+      
+      #app {
+      position: absolute;
+      top: 0;
+      left: 0;
+      }
+      
+      #startup, #initial_startup {
+      width: 100%;
+      height: 100%;
+  
+      background-color: #f2f2f2;
+      
+      -moz-user-select: none;
+      -webkit-user-select: none;
+      
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      display: -webkit-box;
+      display: -webkit-flex;
+      -webkit-align-items: center;
+      -webkit-justify-content: center;
+      flex-direction: column;
+      -webkit-flex-direction: column;
+      }
+
+      .title 
+      {
+        color: #6E2B78;
+        font-family: -apple-system,
+            BlinkMacSystemFont,
+            "Segoe UI",
+            Roboto,
+            Oxygen-Sans,
+            Ubuntu,
+            Cantarell,
+            Helvetica,
+            sans-serif;
+        font-size: 12vmin;
+      }
+
+      .subtitle 
+      {
+        margin-top:-10%;
+        color: #6E2B78;
+        font-family: -apple-system,
+            BlinkMacSystemFont,
+            "Segoe UI",
+            Roboto,
+            Oxygen-Sans,
+            Ubuntu,
+            Cantarell,
+            Helvetica,
+            sans-serif;
+        font-size: 4vmin;
+      }
+
+      .sk-chasing-dots {
+        margin: 40px auto;
+        width: 6vh;
+        height: 6vh;
+        position: relative;
+        text-align: center;
+        -webkit-animation: sk-chasingDotsRotate 2s infinite linear;
+                animation: sk-chasingDotsRotate 2s infinite linear; }
+        .sk-chasing-dots .sk-child {
+          width: 60%;
+          height: 60%;
+          display: inline-block;
+          position: absolute;
+          top: 0;
+          background-color: #6E2B78;
+          border-radius: 100%;
+          -webkit-animation: sk-chasingDotsBounce 2s infinite ease-in-out;
+                  animation: sk-chasingDotsBounce 2s infinite ease-in-out; }
+        .sk-chasing-dots .sk-dot2 {
+          top: auto;
+          bottom: 0;
+          -webkit-animation-delay: -1s;
+                  animation-delay: -1s; }
+
+        @-webkit-keyframes sk-chasingDotsRotate {
+          100% {
+            -webkit-transform: rotate(360deg);
+                    transform: rotate(360deg); } }
+
+        @keyframes sk-chasingDotsRotate {
+          100% {
+            -webkit-transform: rotate(360deg);
+                    transform: rotate(360deg); } }
+
+        @-webkit-keyframes sk-chasingDotsBounce {
+          0%, 100% {
+            -webkit-transform: scale(0);
+                    transform: scale(0); }
+          50% {
+            -webkit-transform: scale(1);
+                    transform: scale(1); } }
+
+        @keyframes sk-chasingDotsBounce {
+          0%, 100% {
+            -webkit-transform: scale(0);
+                    transform: scale(0); }
+          50% {
+            -webkit-transform: scale(1);
+                    transform: scale(1); } }
+    </style>
+
+    <div id="app"></div>
+    <div id="initial_startup">
+      <div>
+        <p class="title"><b>TelepatiX</b>
+      </div>
+      <div>
+        <p class="subtitle"><b>Um jeito simples de se comunicar :)</b>
+      </div>
+      <div class="container-dots">
+        <div class="sk-chasing-dots">
+          <div class="sk-child sk-dot1"></div>
+          <div class="sk-child sk-dot2"></div>
+        </div>
+      </div>
+    </div>
+  </app-root>
+<script type="text/javascript" src="runtime.a66f828dca56eeb90e02.js"></script><script type="text/javascript" src="polyfills.f3e0ffbe709f73abb485.js"></script><script type="text/javascript" src="scripts.b0ec4a31b78af063e456.js"></script><script type="text/javascript" src="main.0b3b034486259b4fb47b.js"></script></body>
+</html>
